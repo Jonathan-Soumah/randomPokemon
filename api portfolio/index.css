@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pokemon{
+    display:grid;
+    width: 20rem;
+    height: 7rem;   
+    grid-template:auto auto / auto;
+    padding: .5rem;
+    color: white;
+    background-color: rgb(48, 25, 25);
+}
+.center{
+    display:flex;
+    justify-content: center;
+}
+.imgContainer{
+    display:flex;
+    justify-content: space-around;
+}
+.pokemonBtn{
+margin: .8rem;
+}
